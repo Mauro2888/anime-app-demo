@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Anime Info</string>
+    <string name="detail_data">main_detail_serialize_anime</string>
+    <string name="detail_desctiption_text">Description</string>
+</resources>

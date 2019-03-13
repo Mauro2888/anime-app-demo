@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:max="100"
+        android:backgroundTint="@color/colorWhite"
+        android:indeterminateTint="#1a09d6"
+        android:layout_marginTop="-7dp"/>
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView_main"
         android:layout_width="match_parent"

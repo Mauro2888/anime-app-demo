@@ -8,6 +8,8 @@
     android:layout_height="match_parent"
     tools:context=".DetailAnime">
 
+
+
     <LinearLayout
         android:layout_margin="10dp"
         android:orientation="horizontal"
@@ -28,6 +30,8 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:textStyle="bold"
+                android:textSize="14sp"
                 android:textColor="@color/colorWhite"
                 android:id="@+id/detail_title_anime"
                 android:layout_width="match_parent"
@@ -35,6 +39,8 @@
                 tools:text="@tools:sample/lorem" />
 
             <TextView
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_star_rate"
                 android:textColor="@color/colorWhite"
                 android:id="@+id/detail_vote_anime"
                 android:layout_width="match_parent"
@@ -42,6 +48,8 @@
                 tools:text="@tools:sample/lorem" />
 
             <TextView
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ic_tv"
                 android:textColor="@color/colorWhite"
                 android:id="@+id/detail_episodes_anime"
                 android:layout_width="match_parent"

@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android"
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_menu"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_title_main"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
     <item android:id="@+id/btn_main_update"
         android:icon="@drawable/ic_update"
         app:showAsAction="always"
